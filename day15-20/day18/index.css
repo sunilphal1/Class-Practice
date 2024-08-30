@@ -1,0 +1,39 @@
+/* transition: property,duration,timing-function,delay*/
+button{
+    display: block;
+    transition-property: padding;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+button:hover{
+    padding: 15px 20px;
+}
+/* Animation:Keyframe*/
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-200px);
+    }
+    75%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.ball{
+    animation:bounce infinite ease 0.4s;
+    border-radius: 50%;
+    background-color: yellow;
+    padding: 40px 25px;
+}
+body{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

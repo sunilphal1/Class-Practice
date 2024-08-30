@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Rings</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 40px;
+        }
+        .progress-ring {
+            position: relative;
+            width: 100px;
+            height: 100px;
+        }
+        .progress-ring svg {
+            transform: rotate(-90deg);
+        }
+        .progress-ring circle {
+            fill: none;
+            stroke-width: 8;
+            stroke: #f00;
+        }
+        .progress-ring circle.background {
+            stroke: #333;
+        }
+        .progress-ring .percentage {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 1.5rem;
+        }
+        .label {
+            text-align: center;
+            color: #fff;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="progress-ring">
+            <div class="percentage">95%</div>
+            <div class="label">Design</div>
+        </div>
+        <div class="progress-ring">
+            <div class="percentage">75%</div>
+            <div class="label">24/7 Support</div>
+        </div>
+        <div class="progress-ring">
+            <div class="percentage">100%</div>
+            <div class="label">Daily Updates</div>
+        </div>
+    </div>
+</body>
+</html>

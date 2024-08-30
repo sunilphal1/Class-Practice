@@ -1,0 +1,13 @@
+img{
+    opacity: 0.2;
+}
+p{
+    position: relative;
+    display:inline-block;
+    background: blueviolet;
+    margin: 10px;
+    color:aliceblue;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+}

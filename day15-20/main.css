@@ -1,0 +1,58 @@
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  margin: 5px;
+  font-size: 18px;
+  padding: 12px 18px;
+  color: white;
+  font-weight: 600;
+  border-style: none;
+  background-color: green;
+  position: relative;
+  bottom:2px;
+  left:80px;
+}
+.container{
+  display: flex;
+  justify-content:space-evenly;
+  gap: 10px;
+}
+.cardsize{
+  /*padding: 20px 30px;
+  border-style: solid;
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: 2px 2px 2px rgb(64, 222, 12);
+  background-color: antiquewhite;
+  padding: 20px;*/
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #b87676;
+}
+P{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: black;
+}
+.imgs{
+  height: 200px;
+  width: 200px;
+  filter: drop-shadow(3px 3px 4px rgb(185, 185, 192));
+}
+span{
+  color: blue;
+}
+/*for mobile*/
+@media (max-width:320px) {
+  .card {
+    padding: 20px auto;
+  }
+}

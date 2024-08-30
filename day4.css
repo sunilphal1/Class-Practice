@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+@font-face{
+    font-family: sunil;
+    src:url(./static/sunil.ttf);
+}
+h1{
+    color:green;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "sunil",cursive;
+}
+.button{
+    border-style: solid;
+    border-width: 10px;
+    border-color: aquamarine;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+.button1{
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(22, 24, 23);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+.button2{
+    background-color:green;
+    border-style: none;
+    font-weight: 300;
+    border-color:none;
+    padding: 20px 30px;
+    margin: 20px 30px;
+    font-size: 16px;
+    color: white;
+    text text-decoration: none;
+}
